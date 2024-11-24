@@ -267,33 +267,33 @@ header .navbar {
 .motivation-section {
     padding: 120px 0;
     background: var(--white-color);
-    text-align: center; /* Centers text within the entire section */
+    text-align: center;
 }
 
 .motivation-section .section-content {
     display: flex;
     gap: 50px;
     align-items: center;
-    justify-content: center; /* Centers the content horizontally */
-    flex-direction: column; /* Stacks content vertically if required */
-    text-align: center; /* Ensures inner content is centered */
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .motivation-section .motivation-details .section-title {
     padding: 0;
-    text-align: center; /* Ensures the title is centered */
+    text-align: center;
 }
 
 .motivation-section .motivation-details {
     max-width: 50%;
-    margin: 0 auto; /* Centers the details block */
+    margin: 0 auto;
 }
 
 .motivation-section .motivation-details .text {
     line-height: 30px;
     margin: 50px 0 30px;
     font-size: var(--font-size-m);
-    text-align: center; /* Explicitly centers the text */
+    text-align: center;
 }
 
 /* Background section styling */
@@ -307,7 +307,7 @@ header .navbar {
     gap: 50px;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row-reverse; /* Swap image and text positions */
+    flex-direction: row-reverse;
 }
 
 .background-section .background-image-wrapper .background-image {
@@ -378,7 +378,7 @@ header .navbar {
     gap: 50px;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row-reverse; /* Swap image and text positions */
+    flex-direction: row-reverse;
 }
 
 .evaluation-section .evaluation-image-wrapper .evaluation-image {
@@ -402,6 +402,40 @@ header .navbar {
     text-align: center;
     font-size: var(--font-size-m);
 }
+
+/* References section styling */
+.reference-section {
+    padding: 120px 0;
+    background: var(--white-color);
+    text-align: center;
+}
+
+.reference-section .section-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reference-section .reference-details .section-title {
+    padding: 0;
+    text-align: center;
+}
+
+.reference-section .reference-details {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.reference-section .reference-details .text {
+    line-height: 30px;
+    margin: 50px 0 30px;
+    font-size: var(--font-size-m);
+    text-align: center;
+}
+
 
 /* Footer section styling */
 .footer-section {
@@ -581,6 +615,16 @@ header .navbar {
     }
 
     .evaluation-section .section-content .evaluation-details .section-subtitle {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .references-section .section-content {
+        gap: 70px;
+        flex-direction: column-reverse;
+    }
+
+    .references-section .section-content .references-details .section-subtitle {
         justify-content: center;
         text-align: center;
     }
