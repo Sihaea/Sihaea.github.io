@@ -44,7 +44,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Stylings for whole site */
+/* Styling for whole site */
 ul {
     list-style: none;
 }
@@ -88,7 +88,7 @@ img {
 
 .small-br {
     display: block;
-    height: 5px; /* Adjust the height for smaller spacing */
+    height: 8px; /* Adjust the height for smaller spacing */
     content: "";
 }
 
@@ -269,6 +269,41 @@ header .navbar {
     text-align: center; /* Explicitly centers the text */
 }
 
+/* Background section styling */
+.background-section {
+    padding: 120px 0;
+    background: var(--light-pink-color);
+}
+
+.background-section .section-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse; /* Swap image and text positions */
+}
+
+.background-section .background-image-wrapper .background-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: var(--border-radius-m);
+}
+
+.background-section .background-details .section-title {
+    padding: 0;
+}
+
+.background-section .background-details {
+    max-width: 50%;
+}
+
+.background-section .background-details .text {
+    line-height: 30px;
+    margin: 50px 0 30px;
+    text-align: center;
+    font-size: var(--font-size-m);
+}
 
 /* Footer section styling */
 .footer-section {
@@ -397,6 +432,23 @@ header .navbar {
     }
 
     .motivation-section .section-content .motivation-details .section-subtitle {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .background-section .section-content {
+        gap: 70px;
+        flex-direction: column-reverse;
+    }
+
+    .background-section .background-image-wrapper .background-image {
+        width: 100%;
+        height: 100%;
+        max-width: 250px;
+        aspect-ratio: 1;
+    }
+
+    .background-section .section-content .background-details .section-subtitle {
         justify-content: center;
         text-align: center;
     }
