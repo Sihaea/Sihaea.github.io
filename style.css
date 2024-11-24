@@ -12,9 +12,9 @@
     /* Colors Insert palette to reference */
     --white-color: #fff;
     --dark-color: #252525;
-    --primary-color: #3b141c;
-    --secondary-color: #f3961c;
-    --light-pink-color: #faf4f5;
+    --primary-color: #3aafa9;
+    --secondary-color: #17252a;
+    --light-pink-color: #def2f1;
     --medium-gray-color: #ccc;
 
     /* Font size */
@@ -143,8 +143,8 @@ header .navbar {
 .nav-logo::before {
     content: "";
     display: inline-block;
-    width: 35px; /* Adjust size of the logo */
-    height: 35px; /* Adjust size of the logo */
+    width: 50px; /* Adjust size of the logo */
+    height: 50px; /* Adjust size of the logo */
     background-image: url('img/wug.png'); /* URL of your logo image */
     background-size: contain; /* Ensure the whole image fits inside the box */
     background-position: center; /* Centers the image */
@@ -152,7 +152,8 @@ header .navbar {
     margin-right: 8px; /* Space between logo and text */
 }
 
-/* Hero section styling *//* Styling for the logo image */
+/* Hero section styling */
+/* Styling for the logo image */
 .nav-logo {
     display: flex;
     align-items: center; /* Aligns logo and text vertically */
