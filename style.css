@@ -135,7 +135,34 @@ header .navbar {
     display: none;
 }
 
-/* Hero section styling */
+.nav-logo {
+    display: flex;
+    align-items: center; /* Aligns logo and text vertically */
+}
+
+.nav-logo::before {
+    content: "";
+    display: inline-block;
+    width: 35px; /* Adjust size of the logo */
+    height: 35px; /* Adjust size of the logo */
+    background-image: url('img/wug.png'); /* URL of your logo image */
+    background-size: contain; /* Ensure the whole image fits inside the box */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    margin-right: 8px; /* Space between logo and text */
+}
+
+/* Hero section styling *//* Styling for the logo image */
+.nav-logo {
+    display: flex;
+    align-items: center; /* Aligns logo and text vertically */
+    gap: 10px; /* Space between logo and text */
+}
+
+.logo-img {
+    width: 30px; /* Adjust width of the image */
+    height: auto;
+}
 .hero-section {
     min-height: 100vh;
     background: var(--primary-color);
@@ -197,8 +224,8 @@ header .navbar {
 }
 
 .hero-section .hero-image-wrapper {
-    max-width: 500px;
-    margin-right: 30px;
+    max-width: 1000px;
+    margin-right: 200px;
 }
 
 /* About section styling */
