@@ -242,9 +242,14 @@ header .navbar {
     justify-content: space-between;
 }
 
-.footer-section :where(.copyright-text) {
+.footer-section :where(.copyright-text, .author-text, .contact-text) {
     color: var(--white-color);
     transition: 0.2s ease;
+}
+
+.footer-section .contact-text .separator {
+    margin: 0 5px;
+    color: var(--white-color);
 }
 
 /* Responsive media query code for max width 900px */
@@ -331,7 +336,7 @@ header .navbar {
 
     .about-section .section-content {
         gap: 70px;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .about-section .about-image-wrapper .about-image {
@@ -340,7 +345,10 @@ header .navbar {
         max-width: 250px;
         aspect-ratio: 1;
     }
+}
 
+/* Responsive media query code for max width 640px */
+@media screen and (max-width: 640px) {
     .footer-section .section-content {
         flex-direction: column;
         gap: 20px;
