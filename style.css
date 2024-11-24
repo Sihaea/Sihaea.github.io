@@ -345,6 +345,11 @@ header .navbar {
         max-width: 250px;
         aspect-ratio: 1;
     }
+
+    .about-section .section-content .about-details .section-subtitle {
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 /* Responsive media query code for max width 640px */
