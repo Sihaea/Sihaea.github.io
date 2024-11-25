@@ -115,8 +115,9 @@
                     Another successful study quantifying flow applied deep learning techniques to metrics
                     obtained from students in an e-learning environment. (Semerci & Goularas, 2020)
                     <br></br>
-                    The following research aims to bridge neuroscience and pedagogy and synthesise such studies by:<br></br>
-
+                </p>
+                <h3 class="section-subtitle">The following research aims to bridge neuroscience and pedagogy and synthesise such studies by:</h3><br></br>
+                <p>
                     • Developing a language learning app designed to facilitate the characteristics of flow.<span class="small-br"></span>
                     • Developing an adaptive deep learning model that adjusts to learners' individual needs for entering
                     flow in real-time.<span class="small-br"></span>
@@ -138,20 +139,45 @@
             <div class="background-details">
                 <h2 class="section-title">Background</h2>
                 <br>
-                <h3 class="section-subtitle">The Science of Flow~</h3>
+                <h3 class="section-subtitle">The Characteristics of Flow~</h3>
                 <p class="text">
-                    Flow emerges when a person’s skill level matches the challenge of a task, accompanied by
-                    immediate feedback. Neuroscience research, including the Transient Hypofrontality Hypothesis
-                    (Dietrich, 2004), suggests that modulating brain activity through tDCS can facilitate
-                    transitions to flow.
-                <h3 class="section-subtitle">Technological Foundations</h3>
-                <br>
-                <p>
-                    • <b>Deep Learning for Flow Measurement:</b> Quantifies engagement and task performance in real
-                    time.<span class="small-br"></span>
-                    • <b>tDCS Applications:</b> Stimulates the prefrontal cortex to enhance focus and implicit learning.
+                    Flow is colloquially referred to as being 'in the zone' or, 'locked in', and several characteristics
+                    associated with the state have been identified (Nakamura & Csikszentmihalyi, 2002, p. 90):<span class="small-br"></span>
+                    • <i>Intense concentration</i><span class="small-br"></span>• <i>Loss of self-consciousness</i><span
+                        class="small-br"></span>• <i>A distorted sense of time</i>.
                     <span class="small-br"></span>
-                    • <b>Adaptive Systems:</b> Dynamically adjust task difficulty to sustain flow.
+                    Also recognised were several features required for the initiation of flow:
+                    <span class="small-br"></span>• <i>A balance of high challenge and high skill</i>
+                    <span class="small-br"></span>• <i>Clear and immediate feedback on a task</i>
+                    <span class="small-br"></span>• <i>A sense of control over the task</i>.
+                <h3 class="section-subtitle">Deep Learning Model</h3>
+                <p class="text">
+                    A 2020 study by Semerci & Goularas employed a deep learning model to quantitatively measure flow in
+                    students engaged in an e-learning website. The study used skill vs. challenge from the theory of
+                    flow, and derived activity vs. performance as metrics. Activity was calculated from the following
+                    (Semerci & Goularas, 2020):
+                    <br></br>• <i>Total amount of time a student spent after logging in</i>
+                    <span class="small-br"></span>• <i>Total amount of time a student performed mouse actions</i>
+                    <span class="small-br"></span>• <i>The number of mouse click actions taken by a student</i>.
+                    <span class="small-br"></span>• <i>The number of in-application-locations visited by a student</i>.
+                    <br></br> Performance was derived from quiz scores.
+                    <br></br> The Activity data was collected and converted into heatmaps, in order to show where on the
+                    screen a student is most active.
+                    <br></br> a CAE (Convolutional Autoencoder) was then used to understand the heatmaps in the following steps:
+                    <br></br>• <i>Encoder: Downsizes the heatmap into a summary</i>
+                    <span class="small-br"></span>• <i>Decoder: Mirrors the encoder with up-sampling layers to
+                    reconstruct the input, maintaining the most important features</i>.
+                    <span class="small-br"></span>• <i>Result: A feature vector representing a student's activity</i>.
+                    <br></br> The Activity vector of each student is compared to an 'Expert' vector - the vector of the
+                    most efficient and highest performing student.
+                </p>
+                <h3 class="section-subtitle">tDCS Technology and a Neuroscience-based theory of flow</h3>
+                <p class="text">
+                    Transcranial Direct Current Stimulation technology can enhance or inhibit areas of the brain via anodal and/or cathodal
+                    charges, respectively. The technology has many applications in the field of neuroscience, and has
+                    been used to verify the Transient Hypofrontality Hypothesis (THH), a neuroscientific approach to a
+                    theory of flow (Dietrich, 2004). <br></br>
+                    
                 </p>
             </div>
         </div>
