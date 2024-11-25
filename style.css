@@ -251,8 +251,7 @@ header .navbar {
 .about-section .about-image-wrapper .about-image {
     width: 400px;
     height: 400px;
-    object-fit: cover;
-    border-radius: var(--border-radius-circle);
+    object-fit: contain;
     transition: 0.3s ease;
     overflow: hidden;
 }
