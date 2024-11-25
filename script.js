@@ -16,3 +16,22 @@ navLinks.forEach(link =>{
     link.addEventListener("click", () => menuOpenButton.click());
 });
 
+// Initialise Swiper
+const swiper = new Swiper('.slider-wrapper', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 25,
+
+    // pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});

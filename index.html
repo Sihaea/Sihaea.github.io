@@ -7,250 +7,284 @@
     <!-- Linking Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <!-- Linking Swiper CSS-->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- Header / Navbar -->
-    <header>
-        <nav class="navbar section-content">
-            <a href="#" class="nav-logo">
-                <h2 class="logo-text">Thinking Cap</h2>
-            </a>
-            <ul class="nav-menu">
-                <button id="menu-close-button" class="fas fa-times"></button>
+<header>
+    <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+            <h2 class="logo-text">Thinking Cap</h2>
+        </a>
+        <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#project" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#motivations" class="nav-link">Motivations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#background" class="nav-link">Background</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#design" class="nav-link">Design</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#evaluation" class="nav-link">Evaluation</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#references" class="nav-link">References</a>
-                </li>
-            </ul>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#project" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#motivations" class="nav-link">Motivations</a>
+            </li>
+            <li class="nav-item">
+                <a href="#background" class="nav-link">Background</a>
+            </li>
+            <li class="nav-item">
+                <a href="#design" class="nav-link">Design</a>
+            </li>
+            <li class="nav-item">
+                <a href="#evaluation" class="nav-link">Evaluation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#references" class="nav-link">References</a>
+            </li>
+        </ul>
 
-            <button id="menu-open-button" class="fas fa-bars"></button>
-        </nav>
-    </header>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+</header>
 
-    <main>
-        <!-- Hero section -->
-        <section class="hero-section">
-            <div class="section-content">
-                <div class="hero-details">
-                    <h2 class="title">Learn Faster.</h2>
-                    <h3 class="subtitle">Unlock your learning potential.</h3>
-                    <p class="description">A research-driven concept for a language learning
-                        platform designed to enhance learning outcomes by leveraging <i>flow</i>.
-                        Integrating adaptive deep learning models and tDCS technology, this project offers a novel
-                        approach to personalized, neuroscience-backed language learning.</p>
+<main>
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Learn Faster.</h2>
+                <h3 class="subtitle">Unlock your learning potential.</h3>
+                <p class="description">A research-driven concept for a language learning
+                    platform designed to enhance learning outcomes by leveraging <i>flow</i>.
+                    Integrating adaptive deep learning models and tDCS technology, this project offers a novel
+                    approach to personalized, neuroscience-backed language learning.</p>
 
-                    <div class="buttons">
-                        <a href="#" class="button order-now">Register Interest</a>
-                        <a href="#project" class="button contact-us">Learn More</a>
-                    </div>
-                </div>
-                <div class="hero-image-wrapper">
-                    <img src="img/wug.png" alt="Hero" class="hero-image">
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section-->
-        <section class="about-section" id="project">
-            <div class="section-content">
-                <div class="about-image-wrapper">
-                    <img src="img/brain.jpg" alt="About" class="about-image">
-                </div>
-                <div class="about-details">
-                    <h2 class="section-title">About</h2>
-                    <h3 class="section-subtitle"><br>What is Flow?</h3>
-                    <p class="text">Flow is a psychological state of optimal performance characterised by intense focus,
-                        seamless execution, and a distorted sense of time. Originating from the work of Mihaly
-                        Csikszentmihalyi, flow is a proven enhancer of skill acquisition and creativity.
-                    </p>
-                    <h3 class="section-subtitle">Project Outline:</h3>
-                    <p class="text">This project investigates how flow can be stimulated and applied in language learning
-                        through the combined use of adaptive deep learning models and tDCS (transcranial direct current stimulation) technology. The goal is to
-                        create a system that dynamically responds to user metrics, sustaining flow and enhancing
-                        language acquisition.
-                    </p>
+                <div class="buttons">
+                    <a href="#" class="button order-now">Register Interest</a>
+                    <a href="#project" class="button contact-us">Learn More</a>
                 </div>
             </div>
-        </section>
-
-        <!-- Motivations section -->
-        <section class="motivation-section" id="motivations">
-            <div class="section-content">
-                <div class="motivation-details">
-                    <h2 class="section-title">Motivation</h2>
-                    <br>
-                    <h3 class="section-subtitle">Why is flow relevant to language learning?</h3>
-                    <p class="text">
-                        Flow has been shown to enhance cognitive performance and learning outcomes. However, existing
-                        language learning methods often struggle to maintain engagement and balance cognitive demands
-                        effectively. This research addresses these challenges by:<br></br>
-
-                        • Bridging neuroscience and pedagogy.<span class="small-br"></span>
-                        • Developing adaptive systems that adjust to learners' individual needs in real-time.<span class="small-br"></span>
-                        • Leveraging tDCS to investigate its role in facilitating transitions from explicit to implicit knowledge.
-                    </p>
-                </div>
+            <div class="hero-image-wrapper">
+                <img src="img/wug.png" alt="Hero" class="hero-image">
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Background section -->
-        <section class="background-section" id="background">
-            <div class="section-content">
-                <div class="background-image-wrapper">
-                    <img src="img/flow-diagram.png" alt="Background" class="background-image">
-                </div>
-
-
-
-                <div class="background-details">
-                    <h2 class="section-title">Background</h2>
-                    <br>
-                    <h3 class="section-subtitle">The Science of Flow~</h3>
-                    <p class="text">
-                        Flow emerges when a person’s skill level matches the challenge of a task, accompanied by
-                        immediate feedback. Neuroscience research, including the Transient Hypofrontality Hypothesis
-                        (Dietrich, 2004), suggests that modulating brain activity through tDCS can facilitate
-                        transitions to flow.
-                    <h3 class="section-subtitle">Technological Foundations</h3>
-                    <br>
-                    <p>
-                        • <b>Deep Learning for Flow Measurement:</b> Quantifies engagement and task performance in real
-                    time.<span class="small-br"></span>
-                        • <b>tDCS Applications:</b> Stimulates the prefrontal cortex to enhance focus and implicit learning.
-                    <span class="small-br"></span>
-                        • <b>Adaptive Systems:</b> Dynamically adjust task difficulty to sustain flow.
-                    </p>
-                </div>
+    <!-- About Section-->
+    <section class="about-section" id="project">
+        <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="img/brain.jpg" alt="About" class="about-image">
             </div>
-        </section>
-
-        <!-- Design section -->
-        <section class="design-section" id="design">
-            <div class="section-content">
-                <div class="design-image-wrapper">
-                    <img src="img/user-diagram.png" alt="Design" class="design-image">
-                </div>
-                <div class="design-details">
-                    <h2 class="section-title">Design</h2>
-                    <br>
-                    <h3 class="section-subtitle">Interface Design</h3>
-                    <p class="text">
-                        Flow emerges when a person’s skill level matches the challenge of a task, accompanied by
-                        immediate feedback. Neuroscience research, including the Transient Hypofrontality Hypothesis
-                        (Dietrich, 2004), suggests that modulating brain activity through tDCS can facilitate
-                        transitions to flow.
-                    <h3 class="section-subtitle">User Flow-Diagram</h3>
-                    <br>
-
-                    <p>
-                    • <b>Deep Learning for Flow Measurement:</b> Quantifies engagement and task performance in real
-                    time.<span class="small-br"></span>
-                    • <b>tDCS Applications:</b> Stimulates the prefrontal cortex to enhance focus and implicit learning.
-                    <span class="small-br"></span>
-                    • <b>Adaptive Systems:</b> Dynamically adjust task difficulty to sustain flow.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Evaluation section -->
-        <section class="evaluation-section" id="evaluation">
-            <div class="section-content">
-                <div class="evaluation-image-wrapper">
-                    <img src="img/flow-diagram.png" alt="Evaluation" class="evaluation-image">
-                </div>
-                <div class="evaluation-details">
-                    <h2 class="section-title">Evaluation</h2>
-                    <br>
-                    <h3 class="section-subtitle">How can this project be evaluated for success?</h3>
-                    <p class="text">
-                        Flow emerges when a person’s skill level matches the challenge of a task, accompanied by
-                        immediate feedback. Neuroscience research, including the Transient Hypofrontality Hypothesis
-                        (Dietrich, 2004), suggests that modulating brain activity through tDCS can facilitate
-                        transitions to flow.
-                    <h3 class="section-subtitle">Technological Foundations</h3>
-                    <br>
-
-                    <p>
-                    • <b>Deep Learning for Flow Measurement:</b> Quantifies engagement and task performance in real
-                    time.<span class="small-br"></span>
-                    • <b>tDCS Applications:</b> Stimulates the prefrontal cortex to enhance focus and implicit learning.
-                    <span class="small-br"></span>
-                    • <b>Adaptive Systems:</b> Dynamically adjust task difficulty to sustain flow.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- References section -->
-        <section class="references-section" id="references">
-            <div class="section-content">
-                <div class="references-details">
-                    <h2 class="section-title">References</h2>
-                    <p class="text">
-                        Here are the references:<b></b>
-                        Bolling, A.J. et al. (2021) ‘Using transcranial direct current stimulation (tdcs) on the dorsolateral 			prefrontal cortex to promote long-term foreign language vocabulary learning’, Brain 		and Cognition, 154, p. 105789. doi:10.1016/j.bandc.2021.105789.
-                        Csikszentmihalyi, M. 2008. Flow : the psychology of optimal experience, New York, Harper 			Perennial.
-                        Dietrich, A. (2004) ‘Neurocognitive mechanisms underlying the experience of flow’, Consciousness 	and Cognition, 13(4), pp. 746–761. doi:10.1016/j.concog.2004.07.002.
-                        Egbert, J. (2003) ‘A study of flow theory in the Foreign Language Classroom’, The Modern 			Language Journal, 87(4), pp. 499–518. doi:10.1111/1540-4781.00204.
-                        Getzels, J. W. & Csikszentmihalyi, M. 1976. The creative vision : a longitudinal study of 			problem finding in art, New York, Wiley.
-                        Gold, J. and Ciorciari, J. (2019) ‘A transcranial stimulation intervention to support flow state 			induction’, Frontiers in Human Neuroscience, 13. doi:10.3389/fnhum.2019.00274.
-                        Gold, J. and Ciorciari, J. 2020. A Review on the Role of the Neuroscience of Flow States in the 		Modern World. Behav Sci (Basel), 10.
-                        Larson, R. and Csikszentmihalyi, M. (2014) ‘The experience sampling method’, Flow and the 			Foundations of Positive Psychology, pp. 21–34. doi:10.1007/978-94-017-9088-8_2.
-                        Levy, M. (1997) Computer-Assisted Language Learning: Context and conceptualization [Preprint]. 		doi:10.1093/oso/9780198236320.001.0001.
-                        Maddox, W.T., Ashby, F.G. and Bohil, C.J. (2003) ‘Delayed feedback effects on rule-based and 			information-integration category learning.’, Journal of Experimental Psychology: 			Learning, Memory, and Cognition, 29(4), pp. 650–662. 						doi:10.1037/0278-7393.29.4.650.
-                        Nakamura, J. & Csikszentmihalyi, M. 2002. The concept of flow. In: Snyder, C. R., Lopez, S. J. & 		NetLibrary, I. (eds.) Handbook of Positive Psychology. Oxford: Oxford University 			Press, pp. 89-105.
-                        Rheinberg, F. 2008. Intrinsic motivation and flow-experience. In: Heckhausen, J. & Heckhausen, H. 	(eds.) Motivation and Action. 1st ed. Cambridge: Cambridge University Press, pp. 		323-348.
-                        Schacter, D.L. (1987) ‘Implicit memory: History and current status.’, Journal of Experimental 			Psychology: Learning, Memory, and Cognition, 13(3), pp. 501–518. 				doi:10.1037//0278-7393.13.3.501.
-                        Schmidt, R. (1992) ‘Challenge, skill and motivation’, PASAA, 22(1), pp. 14–28. doi:10.58837/			chula.pasaa.22.1.2.
-                        Semerci, Y.C. and Goularas, D. (2020) ‘Evaluation of students’ flow state in an e-learning 			environment through activity and performance using Deep Learning Techniques’, 		Journal of Educational Computing Research, 59(5), pp. 960–987. 					doi:10.1177/0735633120979836.
-                    </p>
-                    <b></b>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Footer section -->
-        <footer class="footer-section">
-            <div class="section-content">
-                <p class="copyright-text">© 2024 Thinking Cap</p>
-
-                <p class="author-text">Simon Harshman-Earley</p>
-
-                <p class="contact-text">
-                    harshmas@tcd.ie
-                    <span class="separator">•</span>
-                    LIU44007
+            <div class="about-details">
+                <h2 class="section-title">About</h2>
+                <h3 class="section-subtitle"><br>What is Flow?</h3>
+                <p class="text">Flow is a psychological state of optimal performance characterised by intense focus,
+                    seamless execution, and a distorted sense of time. Originating from the work of Mihaly
+                    Csikszentmihalyi, flow is a proven enhancer of skill acquisition and creativity.
+                </p>
+                <h3 class="section-subtitle">Project Outline:</h3>
+                <p class="text">This project investigates how flow can be stimulated and applied in language learning
+                    through the combined use of adaptive deep learning models and tDCS (transcranial direct current stimulation) technology. The goal is to
+                    create a system that dynamically responds to user metrics, sustaining flow and enhancing
+                    language acquisition.
                 </p>
             </div>
-        </footer>
-    </main>
+        </div>
+    </section>
 
-    <!-- Linking Swiper script -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Motivations section -->
+    <section class="motivation-section" id="motivations">
+        <div class="section-content">
+            <div class="motivation-details">
+                <h2 class="section-title">Motivation</h2>
+                <br>
+                <h3 class="section-subtitle">Why is flow relevant to language learning?</h3>
+                <p class="text">
+                    Flow has been shown to enhance cognitive performance and learning outcomes. However, existing
+                    language learning methods often struggle to maintain engagement and balance cognitive demands
+                    effectively. This research addresses these challenges by:<br></br>
 
-    <script src="script.js"></script>
+                    • Bridging neuroscience and pedagogy.<span class="small-br"></span>
+                    • Developing adaptive systems that adjust to learners' individual needs in real-time.<span class="small-br"></span>
+                    • Leveraging tDCS to investigate its role in facilitating transitions from explicit to implicit knowledge.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Background section -->
+    <section class="background-section" id="background">
+        <div class="section-content">
+            <div class="background-image-wrapper">
+                <img src="img/flow-diagram.png" alt="Background" class="background-image">
+            </div>
+
+
+
+            <div class="background-details">
+                <h2 class="section-title">Background</h2>
+                <br>
+                <h3 class="section-subtitle">The Science of Flow~</h3>
+                <p class="text">
+                    Flow emerges when a person’s skill level matches the challenge of a task, accompanied by
+                    immediate feedback. Neuroscience research, including the Transient Hypofrontality Hypothesis
+                    (Dietrich, 2004), suggests that modulating brain activity through tDCS can facilitate
+                    transitions to flow.
+                <h3 class="section-subtitle">Technological Foundations</h3>
+                <br>
+                <p>
+                    • <b>Deep Learning for Flow Measurement:</b> Quantifies engagement and task performance in real
+                    time.<span class="small-br"></span>
+                    • <b>tDCS Applications:</b> Stimulates the prefrontal cortex to enhance focus and implicit learning.
+                    <span class="small-br"></span>
+                    • <b>Adaptive Systems:</b> Dynamically adjust task difficulty to sustain flow.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design section -->
+    <section class="design-section" id="design">
+        <div class="section-content">
+            <div class="design-image-wrapper">
+                <img src="img/user-diagram.png" alt="Design" class="design-image">
+            </div>
+            <div class="design-details">
+                <h2 class="section-title">Design</h2>
+                <br>
+                <h3 class="section-subtitle">Interface Design</h3>
+                <p class="text">
+                    Flow emerges when a person’s skill level matches the challenge of a task, accompanied by
+                    immediate feedback. Neuroscience research, including the Transient Hypofrontality Hypothesis
+                    (Dietrich, 2004), suggests that modulating brain activity through tDCS can facilitate
+                    transitions to flow.
+                <h3 class="section-subtitle">User Flow-Diagram</h3>
+                <br>
+
+                <p>
+                    • <b>Deep Learning for Flow Measurement:</b> Quantifies engagement and task performance in real
+                    time.<span class="small-br"></span>
+                    • <b>tDCS Applications:</b> Stimulates the prefrontal cortex to enhance focus and implicit learning.
+                    <span class="small-br"></span>
+                    • <b>Adaptive Systems:</b> Dynamically adjust task difficulty to sustain flow.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Evaluation section -->
+    <section class="evaluation-section" id="evaluation">
+        <div class="section-content">
+            <div class="evaluation-image-wrapper">
+                <img src="img/flow-diagram.png" alt="Evaluation" class="evaluation-image">
+            </div>
+            <div class="evaluation-details">
+                <h2 class="section-title">Evaluation</h2>
+                <br>
+                <h3 class="section-subtitle">How can this project be evaluated for success?</h3>
+                <p class="text">
+                    Flow emerges when a person’s skill level matches the challenge of a task, accompanied by
+                    immediate feedback. Neuroscience research, including the Transient Hypofrontality Hypothesis
+                    (Dietrich, 2004), suggests that modulating brain activity through tDCS can facilitate
+                    transitions to flow.
+                <h3 class="section-subtitle">Technological Foundations</h3>
+                <br>
+
+                <p>
+                    • <b>Deep Learning for Flow Measurement:</b> Quantifies engagement and task performance in real
+                    time.<span class="small-br"></span>
+                    • <b>tDCS Applications:</b> Stimulates the prefrontal cortex to enhance focus and implicit learning.
+                    <span class="small-br"></span>
+                    • <b>Adaptive Systems:</b> Dynamically adjust task difficulty to sustain flow.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+            <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                    <ul class="gallery-list swiper-wrapper">
+                        <li class="gallery swiper-slide">
+                            <img src="img/flow-diagram.png" alt="diagram" class="diagram-image">
+                            <h3 class="title">Diagram of Flow</h3>
+                            <i class="description">This is a diagram of flow</i>
+                        </li>
+                        <li class="gallery swiper-slide">
+                            <img src="img/tDCS.jpg" alt="diagram" class="diagram-image">
+                            <h3 class="title">Diagram of tDCS</h3>
+                            <i class="description">This is a diagram of tDCS</i>
+                        </li>
+                        <li class="gallery swiper-slide">
+                            <img src="img/user-diagram.png" alt="diagram" class="diagram-image">
+                            <h3 class="title">Diagram of user experience</h3>
+                            <i class="description">This is a diagram of user experience</i>
+                        </li>
+                    </ul>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References section -->
+    <section class="references-section" id="references">
+        <div class="section-content">
+            <div class="references-details">
+                <h2 class="section-title">References</h2>
+                <p class="text">
+                    Here are the references:<b></b>
+                    Bolling, A.J. et al. (2021) ‘Using transcranial direct current stimulation (tdcs) on the dorsolateral 			prefrontal cortex to promote long-term foreign language vocabulary learning’, Brain 		and Cognition, 154, p. 105789. doi:10.1016/j.bandc.2021.105789.
+                    Csikszentmihalyi, M. 2008. Flow : the psychology of optimal experience, New York, Harper 			Perennial.
+                    Dietrich, A. (2004) ‘Neurocognitive mechanisms underlying the experience of flow’, Consciousness 	and Cognition, 13(4), pp. 746–761. doi:10.1016/j.concog.2004.07.002.
+                    Egbert, J. (2003) ‘A study of flow theory in the Foreign Language Classroom’, The Modern 			Language Journal, 87(4), pp. 499–518. doi:10.1111/1540-4781.00204.
+                    Getzels, J. W. & Csikszentmihalyi, M. 1976. The creative vision : a longitudinal study of 			problem finding in art, New York, Wiley.
+                    Gold, J. and Ciorciari, J. (2019) ‘A transcranial stimulation intervention to support flow state 			induction’, Frontiers in Human Neuroscience, 13. doi:10.3389/fnhum.2019.00274.
+                    Gold, J. and Ciorciari, J. 2020. A Review on the Role of the Neuroscience of Flow States in the 		Modern World. Behav Sci (Basel), 10.
+                    Larson, R. and Csikszentmihalyi, M. (2014) ‘The experience sampling method’, Flow and the 			Foundations of Positive Psychology, pp. 21–34. doi:10.1007/978-94-017-9088-8_2.
+                    Levy, M. (1997) Computer-Assisted Language Learning: Context and conceptualization [Preprint]. 		doi:10.1093/oso/9780198236320.001.0001.
+                    Maddox, W.T., Ashby, F.G. and Bohil, C.J. (2003) ‘Delayed feedback effects on rule-based and 			information-integration category learning.’, Journal of Experimental Psychology: 			Learning, Memory, and Cognition, 29(4), pp. 650–662. 						doi:10.1037/0278-7393.29.4.650.
+                    Nakamura, J. & Csikszentmihalyi, M. 2002. The concept of flow. In: Snyder, C. R., Lopez, S. J. & 		NetLibrary, I. (eds.) Handbook of Positive Psychology. Oxford: Oxford University 			Press, pp. 89-105.
+                    Rheinberg, F. 2008. Intrinsic motivation and flow-experience. In: Heckhausen, J. & Heckhausen, H. 	(eds.) Motivation and Action. 1st ed. Cambridge: Cambridge University Press, pp. 		323-348.
+                    Schacter, D.L. (1987) ‘Implicit memory: History and current status.’, Journal of Experimental 			Psychology: Learning, Memory, and Cognition, 13(3), pp. 501–518. 				doi:10.1037//0278-7393.13.3.501.
+                    Schmidt, R. (1992) ‘Challenge, skill and motivation’, PASAA, 22(1), pp. 14–28. doi:10.58837/			chula.pasaa.22.1.2.
+                    Semerci, Y.C. and Goularas, D. (2020) ‘Evaluation of students’ flow state in an e-learning 			environment through activity and performance using Deep Learning Techniques’, 		Journal of Educational Computing Research, 59(5), pp. 960–987. 					doi:10.1177/0735633120979836.
+                </p>
+                <b></b>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">© 2024 Thinking Cap</p>
+
+            <p class="author-text">Simon Harshman-Earley</p>
+
+            <p class="contact-text">
+                harshmas@tcd.ie
+                <span class="separator">•</span>
+                LIU44007
+            </p>
+        </div>
+    </footer>
+</main>
+
+<!-- Linking Swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
